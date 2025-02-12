@@ -11,4 +11,3 @@ form.addEventListener("submit", (evt) => {
   input.value = null;
   num++;
 });
-
