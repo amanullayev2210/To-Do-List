@@ -27,24 +27,22 @@
             <div class="container mx-auto p-4">
                 <div class="text-center bg-red-200 bg-opacity-50 shadow-xl min-h-[350px] max-h-auto p-5">
                 <h1 class="mb-8 pt-8 text-center text-[36px] text-red-500">To do List</h1>
-                <div class="flex justify-between">  
-                    <form class="mb-5 flex justify-center items-center flex-col gap-8 js-form">
-                    <input type="text" class="max-w-[100%]  bg-white text-[#000000] p-4 border-none outline-none rounded-xl shadow-lg js-new_input" placeholder="Enter your name" required>
-                    <input type="email" class="max-w-[100%] bg-white text-[#000000] p-4 border-none outline-none rounded-xl shadow-lg" placeholder="Enter your email" required>
-                    <textarea placeholder="Enter your message" class="max-w-[100%] bg-white text-[#000000] p-4 border-none outline-none rounded-xl resize-none shadow-lg"></textarea>
-                    <button type="submit" class="bg-green-300 text-[#000000] pt-2 pb-2 pr-5 pl-5 rounded-xl shadow-[4px_4px_10px_rgba(0,0,0,0.2)] cursor-pointer js-button"><i class="fa-solid fa-paper-plane"></i></button>
+                <div class="flex justify-evenly flex-wrap">  
+                    <form class="mb-5 w[600px] max-w-[100%] flex items-center flex-col gap-6 new-js_form">
+                    <input type="text" class="w-[600px] max-w-[100%] flex justify-start text-start bg-white text-[#000000] p-4 border-none outline-none rounded-xl new-js_input" placeholder="Enter your name" required>
+                    <input type="email" class="w-[600px] max-w-[100%] bg-white text-[#000000] p-4 border-none outline-none rounded-xl shadow-lg new-js_input2" placeholder="Enter your email" required>
+                    <textarea placeholder="Enter your message" class="w-[600px] max-w-[100%] bg-white text-[#000000] p-4 border-none outline-none rounded-xl resize-none shadow-lg new-js_text"></textarea>
+                    <button type="submit" class="bg-green-300 text-[#000000] pt-2 pb-2 pr-5 pl-5 rounded-xl shadow-[4px_4px_10px_rgba(0,0,0,0.2)] cursor-pointer new-js_button"><i class="fa-solid fa-paper-plane"></i></button>
                 </form>
-                <div class="max-w-[690px] w-[100%]">
-                <div class="js-new_wrapper flex justify-center items-center flex-col max-w-[690px] w-[100%]">
-                    <ul class="js-new_ul"></ul>
+                <div class="max-w-[400px] w-[100%]">
+                <div class="js-new_wrapper flex justify-center items-center flex-col">
+                    <ul class="js-new_ul flex flex-col w-[100%] gap-6"></ul>
                 </div> 
             </div>
             </div>
         </div>
         <template class="js-new_template">
-            <li class="js-new_li">
-                <p class="js-paragraph"></p>
-                <p class="js-paragraph"></p>
+            <li class="js-neww_li">
                 <p class="js-paragraph"></p>
                 <button class="js-button">delete <i class="fa-solid fa-trash"></i></button>
             </li>
