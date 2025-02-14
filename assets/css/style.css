@@ -1,3 +1,4 @@
+/* Old start */
 .js-wrapper {
     p {
         margin-bottom: 12px;
@@ -12,6 +13,9 @@
         border-radius: 6px;
     }
 }
+
+/* Old end */
+/* New start */
 
 .js-new_li {
     margin-bottom: 12px;
@@ -47,5 +51,43 @@
     line-height: 1.6;
     background-color: #07bff0;
     border-radius: 6px;
+    cursor: pointer;
+}
+
+/* New end */
+/* Contact start */
+.js-neww_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 40px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.js-paragraph {
+    width: 100%;
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: white;
+    border-radius: 6px;
+    text-align: start;
+}
+
+.js-button {
+    max-width: 100%;
+    min-width: 75px;
+    width: 30px;
+    padding: 6px;
+    color: #000000;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease-in-out;
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: #07bff0;
+    border-radius: 6px;  
     cursor: pointer;
 }
